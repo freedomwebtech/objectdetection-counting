@@ -14,6 +14,6 @@ while True:
     cv2.imshow("FRAME",frame)
     if cv2.waitKey(1)&0xFF==27:
         break
-cap.release()
+stream.release()
 cv2.destroyAllWindows()
 
