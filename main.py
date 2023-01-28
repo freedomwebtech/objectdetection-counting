@@ -12,7 +12,6 @@ while True:
  
     frame=cv2.resize(frame,(1020,600))
     cv2.imshow("FRAME",frame)
-    cv2.setMouseCallback("FRAME",POINTS)
     if cv2.waitKey(1)&0xFF==27:
         break
 cap.release()
